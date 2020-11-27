@@ -1,7 +1,7 @@
 
-# _Code-201 Reading Notes_
+# _Code-301 Reading Notes_
 
-- This is where I put all the readings from my code-301 class.
+- This is where I put all the readings from my code-301 class
 
 
 ## **Table of Contents**

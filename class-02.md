@@ -30,6 +30,6 @@
 
 
 
-[>> NEXT (class 03 reading)](https://wondwosentsige.github.io/code-201-reading-notes/class-03)
+[>> NEXT (class 03 reading)](https://wondwosentsige.github.io/code-301-reading-notes/class-03)
 
 

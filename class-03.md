@@ -29,6 +29,6 @@
 
 
 
-[>> NEXT (class 04 reading)](https://wondwosentsige.github.io/code-201-reading-notes/class-04)
+[>> NEXT (class 04 reading)](https://wondwosentsige.github.io/code-301-reading-notes/class-04)
 
 
