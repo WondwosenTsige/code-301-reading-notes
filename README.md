@@ -6,7 +6,7 @@
 
 ## **Table of Contents**
 
-[class 01 reading](class-01.md)
+[class 01 reading](https://wondwosentsige.github.io/code-301-reading-notes/class-01)
 
 [class 02 reading](https://wondwosentsige.github.io/code-301-reading-notes/class-02)
 
