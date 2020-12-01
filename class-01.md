@@ -87,6 +87,6 @@
 
 
 
-[>> NEXT (class 02 reading)](https://wondwosentsige.github.io/code-301-reading-notes/class-02)
+[>> NEXT (Read-02)](https://wondwosentsige.github.io/code-301-reading-notes/class-02)
 
 
