@@ -82,6 +82,14 @@
 
 
 
+Attributions for the following Refrence materials and their authors
+
+[Shay Howe’s intro to RWD](https://learn.shayhowe.com/advanced-html-css/responsive-web-design)
+
+[All about floats](https://css-tricks.com/all-about-floats/)
+
+[SMACSS official documentation](http://smacss.com/)
+
 
 
 
