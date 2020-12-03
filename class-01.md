@@ -82,7 +82,8 @@
 
 
 
-Attributions for the following Refrence materials and their authors
+__Attributions for the following Refrence materials and their authors__
+
 
 [Shay Howe’s intro to RWD](https://learn.shayhowe.com/advanced-html-css/responsive-web-design)
 
@@ -93,8 +94,4 @@ Attributions for the following Refrence materials and their authors
 
 
 
-
-
 [>> NEXT (Read-02)](https://wondwosentsige.github.io/code-301-reading-notes/class-02)
-
-
