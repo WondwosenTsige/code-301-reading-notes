@@ -58,6 +58,19 @@ with plain JavaScript.
 
 
 
+......................................................................................................
+
+__Attributions for the following Reference materials and their authors__
+
+
+[6 Reasons for Pair Programming](https://www.codefellows.org/blog/6-reasons-for-pair-programming/)
+
+- JavaScript and jQuery book by Jon Duckett 
+
+
+
+
+
 
 
 

@@ -80,9 +80,9 @@
 
 
 
+...............................................................................
 
-
-__Attributions for the following Refrence materials and their authors__
+__Attributions for the following Reference materials and their authors__
 
 
 [Shay Howe’s intro to RWD](https://learn.shayhowe.com/advanced-html-css/responsive-web-design)
