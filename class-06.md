@@ -30,12 +30,12 @@
 
 
 
-__Attributions for the following Reference material and the author James Hibbard__
+__Attributions for the following Reference material and the authors__
 
 
-[An Introduction to Node.js](https://www.sitepoint.com/an-introduction-to-node-js/)
+[An Introduction to Node.js, James Hibbard](https://www.sitepoint.com/an-introduction-to-node-js/)
 
-[What is API? In English, please](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
+[What is API? In English, please, Petr Gazrov](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
 
 
 
