@@ -4,7 +4,10 @@
 ## Read 07
 
 
+- HTTP is the foundation of the web. It is capable of describing the location of something anywhere in the world from anywhere in the world. You can think of it like GPS coordinates for knowledge and information.
 
+
+- I read the "What Google Learned From Its Quest to Build the Perfect Team" from my reading note
 
 
 
@@ -24,11 +27,9 @@
 __Attributions for the following Reference materials and their authors__
 
 
-[Shay Howe’s intro to RWD](https://learn.shayhowe.com/advanced-html-css/responsive-web-design)
+[It's the foundation of the web.](https://gist.github.com/brookr/5977550)
 
-[All about floats](https://css-tricks.com/all-about-floats/)
 
-[SMACSS official documentation](http://smacss.com/)
 
 
 
