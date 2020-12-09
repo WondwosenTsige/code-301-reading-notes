@@ -9,13 +9,13 @@
 
 - RDBMS stands for Relational Database Management System and it is a collection of related tables
 
--The data in RDBMS is stored in database objects called tables. A table is a collection of related data entries and it consists of columns and rows.
+- The data in RDBMS is stored in database objects called tables. A table is a collection of related data entries and it consists of columns and rows.
 
 - We write SELECT statements to retrieve data from a SQL database.
 
 - Other SQL commands such as "Insert", "Update", "Delete", "Create", and "Drop" can be used to manipulate a database
 
-- 
+
 
 
 
