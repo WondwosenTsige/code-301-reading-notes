@@ -1,45 +1,29 @@
 
-### [Table of Contents](https://wondwosentsige.github.io/code-201-reading-notes/Home)
+### [Table of Contents](https://wondwosentsige.github.io/code-301-reading-notes/Home)
 
-## Class 09 reading notes
+## Read 09
 
-### Forms
+### Refactoring
 
-- Whenever you want to collect information from visitors you will need a form, which lives inside a <form> element.
+- __Functional programming__ is the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects.
 
-- Information from a form is sent in name/value pairs.
+- Functional programming concepts like immutability and pure function are big advantages to build side-effect-free functions, so it is easier to maintain systems.
 
-- Each form control is given a name, and the text the user types in or the values of the options they select
-are sent to the server.
+- *Functional code tends to be more concise, more predictable, and easier to test than imperative or object oriented code* 
 
-- HTML5 introduces new form elements which make it
-easier for visitors to fill in forms.
+- __Pure function__ is the first fundamental conept of functional programming which returns the same result if given the same arguments
 
+- __Refactoring__ consists of improving the internal structure of an existing program’s source code, while preserving its external behavior.
 
-### Lists
+- *The following are claimed benefits of refactoring:*
 
-- In addition to the CSS p XX roperties covered in other chapters which work with the contents of all elements, there are several others that are specifically used to control the appearance of lists, tables, and forms.
+    - Refactoring improves objective attributes of code (length, duplication, coupling and cohesion, cyclomatic complexity) that correlate with ease of maintenance. 
 
-- List markers can be given different appearances using the list-style-type and list-style image properties.
+    - Refactoring helps code understanding
 
-- Table cells can have different borders and spacing in different browsers, but there are properties you can use to control them and make them more consistent.
-
-- Forms are easier to use if the form controls are vertically aligned using CSS.
-
-- Forms benefit from styles that make them feel more
-interactive.
-
-### Events
-
-- Events are the browser's way of indicating when something has happened (such as when a page has finished loading or a button has been clicked).
-
-- Binding is the process of stating which event you are waiting to happen, and which element you are waiting for that event to happen upon.
-
-- When an event occurs on an element, it can trigger a JavaScript function. When this function then changes the web page in some way, it feels interactive because it has responded to the user.
-
-- You can use event delegation to monitor for events that happen on all of the children of an element.
-
-- The most commonly used events are W3C DOM events, although there are others in the HTMLS specification as well as browser-specific events.
+    - Refactoring encourages each developer to think about and understand design decisions, in particular in the context of collective ownership / collective code ownership.
+    
+    - Refactoring favors the emergence of reusable design elements (such as design patterns) and code modules
 
 
 
@@ -59,8 +43,27 @@ interactive.
 
 
 
+..........................................................................................
+
+__Attributions for the following Reference materials and their authors__
 
 
-[>> NEXT (class 10 reading)](https://wondwosentsige.github.io/code-201-reading-notes/class-10)
+[Functional Programming Concepts, by TK](https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa)
+
+[Refactoring Javascript for Readability, BY Andrew Healey](https://dev.to/healeycodes/refactoring-javascript-for-performance-and-readability-with-examples-1hec)
+
+[What is refactoring?](https://www.agilealliance.org/glossary/refactoring/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'refactoring))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
+
+
+[Master the Javascript Interview, by Eric Elliott](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
+
+
+
+
+
+
+
+
+[>> NEXT (Read-10)](https://wondwosentsige.github.io/code-301-reading-notes/class-10)
 
 
