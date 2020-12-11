@@ -1,50 +1,35 @@
 
-### [Table of Contents](https://wondwosentsige.github.io/code-201-reading-notes/Home)
+### [Table of Contents](https://wondwosentsige.github.io/code-301-reading-notes/Home)
 
-## Class 10 reading notes
+## Read 09
 
-### JS Debugging
+### The call stack
 
-- __Debugging__ *is the process of finding errors. It involves a process of deduction.*
+- At the most basic level, __a call stack is a data structure that uses the Last In, First Out (LIFO) principle to temporarily store and manage function invocation.__
 
-- When you are writing JavaScript, do not expect to write it perfectly the first time. Programming is like problem solving: you are given a puzzle and not only do you have to solve it, but *you also need to create the instructions that allow the computer to solve it, too.*
+- A call stack is a mechanism for an interpreter to keep track of what function is currently being run and what functions are called from within that function.
 
-- When writing a long script, nobody gets everything right in their first attempt. The error messages that a browser gives look cryptic at first, but they can help you determine what went wrong in your JavaScript and how to fix it. Here, we will discuss about:
+- *The call stack is primarily used for function invocation*. Since the call stack is single, function(s) execution, is done, one at a time, from top to bottom. It means the call stack is synchronous.
 
-    - __THE CONSOLE & DEV TOOLS:__ Tools built into the browser that help you hunt for errors.
+- In summary, the key takeaways from the call stack are:
 
-    - __COMMON PROBLEMS:__ Common sources of errors, and how to solve them.
+    1. It is single-threaded. Meaning it can only do one thing at a time.
 
-    - __HANDLING ERRORS:__ How code can deal with potential errors gra cefully.
+    2. Code execution is synchronous.
 
-- __ORDER OF EXECUTION:__ To find the source of an error, it helps to know how scripts are processed. The order in which statements are executed can be complex; some tasks cannot complete until another statement or function has been run.
+    3. A function invocation creates a stack frame that occupies a temporary memory.
 
-- The JavaScript interpreter uses the concept of *execution contexts.* There is one global execution context; plus, each function creates a new new execution context. They correspond to variable scope.
+    4. It works as a LIFO — Last In, First Out data structure.
 
-- __EXECUTION CONTEXT:__ *Every statement in a script lives in one of three execution contexts:*
+- #### Error messages
 
-    1. *GLOBAL CONTEXT:* Code that is in the script, but not in a function. There is only one global context in any page
+- JavaScript is not a compiled language.So our errors will happen at runtime, that means that we can only see whatever is wrong with the code after running it.
 
-    2. *FUNCTION CONTEXT:* Code that is being run within a function. Each function has its own function context
+- The first thing that indicates something is wrong with our code is the one wich usually appears on the  console.
 
-    3. *EVAL CONTEXT (NOT SHOWN):* Text is executed like code in an internal function called eval()
+- __Most types of errors includes reference errors, syntac errors, range errors, and type errors__
 
-- __VARIABLE SCOPE:__ The first two execution contexts correspond with the notion of scope
-
-    1. *GLOBAL SCOPE:* If a variable is declared outside a function, it can be used anywhere because it has global scope. If you do not use the var keyword when creating a variable, it is placed in global scope.
-
-    2. *FUNCTION-LEVEL SCOPE:* When a variable is declared within a function, it can only be used within that function. This is because it has function-level scope.
-
-- _The stack_
-    - *The javascript interpreter processes one line of code at a time. when a statement needs data from another function, it stacks(or piles) the new function on top of the current task*
-
-- *Error objects can help you find where your mistakes are and browsers have tools to help you read them.*
-
-- The console helps narrow down the area in which the error is located, so you can try to find the exact error.
-
-- __JavaScript has 7 different types of errors.__ Each creates its own error object, which can tell you its line number and gives a description of the error.
-
-- If you know that you may get an error, you can handle it gracefully using the try, catch, finally statements. Use them to give your users helpful feedback.
+- Being able to read error messages and practising debugging is one of the biggest weapons for a developer. By doing it frequently and with enough time we will notice a great decrease in the time we spend debugging those errors.
 
 
 
@@ -65,6 +50,34 @@
 
 
 
-[>> NEXT (class 11 reading)](https://wondwosentsige.github.io/code-201-reading-notes/class-11)
 
 
+
+
+
+
+
+
+
+..........................................................................................
+
+__Attributions for the following Reference materials and their authors__
+
+
+[Understanding the JavaScript Call Stack, by Charles Freeborn](https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/)
+
+[JavaScript error messages, BY Diogo Spinola](https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c)
+
+[What is refactoring?](https://www.agilealliance.org/glossary/refactoring/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'refactoring))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
+
+
+[The Call Stack defined on MDN](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
+
+
+
+
+
+
+
+
+[>> NEXT (Read-11)](https://wondwosentsige.github.io/code-301-reading-notes/class-11)
