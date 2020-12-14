@@ -1,7 +1,7 @@
 
 ### [Table of Contents](https://wondwosentsige.github.io/code-301-reading-notes/Home)
 
-## Read 09
+## Read 10
 
 ### The call stack
 
