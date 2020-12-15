@@ -1,16 +1,14 @@
+### [Table of Contents](https://wondwosentsige.github.io/code-301-reading-notes/Home)
 
-### [Table of Contents](https://wondwosentsige.github.io/code-201-reading-notes/Home)
+## Read 12
 
-## Class 12 reading notes
+### Components
 
+- EJS partials help us to avoid repetition of the same code on several web pages.
 
-### Charts
+- Partials are like functions, they make large websites easier to maintain as you don’t have to go and change a piece of text in every page it appears in. 
 
-- Charts are far better for displaying data visually than tables and have the added benefit that no one is ever going to press-gang them into use as a layout tool. They’re easier to look at and convey data quickly, but they’re not always easy to create.
-
-
-
-
+- They are mostly used on nav bar, footer, header and other common and reusable components of our web page including texts to stay static
 
 
 
@@ -32,6 +30,27 @@
 
 
 
-[>> NEXT (class 13 reading)](https://wondwosentsige.github.io/code-201-reading-notes/class-13)
 
 
+
+
+
+
+
+
+
+
+
+=====================================
+
+__Attributions for the following Reference materials and their authors__
+
+
+[EJS Partials- Hensle Joseph](https://medium.com/@henslejoseph/ejs-partials-f6f102cb7433)
+
+
+
+
+
+
+[>> NEXT (Read-13)](https://wondwosentsige.github.io/code-301-reading-notes/class-13)
