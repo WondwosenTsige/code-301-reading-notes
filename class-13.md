@@ -71,8 +71,7 @@ __Server side__
 
 __Attributions for the following Reference materials and their authors__
 
-[MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)[EJS Partials- Hensle Joseph](https://medium.com/@henslejoseph/ejs-partials-f6f102cb7433)
-
+[MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
 
 
 
