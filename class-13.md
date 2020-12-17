@@ -1,20 +1,39 @@
+### [Table of Contents](https://wondwosentsige.github.io/code-301-reading-notes/Home)
 
-### [Table of Contents](https://wondwosentsige.github.io/code-201-reading-notes/Home)
+## Read 13
 
-## Class 13 reading notes
-
-- Persistent local storage is one of the areas where native client applications have held an advantage over web applications. For native applications, the operating system typically provides an abstraction layer for storing and retrieving application-specific data like preferences or runtime state. These values may be stored in the registry, INI files, XML files, or some other place according to platform convention. If your native client application needs local storage beyond key/value pairs, you can embed your own database, invent your own file format, or any number of other solutions.
-
-- __HTML5 Storage__ is a specification named Web Storage, which was at one time part of the HTML5 specification proper, but was split out into its own specification for uninteresting political reasons. Certain browser vendors also refer to it as “Local Storage” or “DOM Storage.” The naming situation is made even more complicated by some related, similarly-named, emerging standards that I’ll discuss later in this chapter.
-
-- HTML5 Storage is based on named key/value pairs. You store data based on a named key, then you can retrieve that data with the same key. The named key is a string. The data can be any type supported by JavaScript, including strings, Booleans, integers, or floats. However, the data is actually stored as a string. If you are storing and retrieving anything other than strings, you will need to use functions like parseInt() or parseFloat() to coerce your retrieved data into the expected JavaScript datatype.
-
-- If you want to keep track programmatically of when the storage area changes, you can trap the storage event. The storage event is fired on the window object whenever setItem(), removeItem(), or clear() is called and actually changes something. For example, if you set an item to its existing value or call clear() when there are no named keys, the storage event will not fire, because nothing actually changed in the storage area.
-
-- In talking about the history of local storage hacks using third-party plugins, I made a point of mentioning the limitations of each technique, such as storage limits. I just realized that I haven’t mentioned anything about the limitations of the now-standardized HTML5 Storage. I’ll give you the answers first, then explain them. The answers, in order of importance, are “5 megabytes,” “QUOTA_EXCEEDED_ERR,” and “no.”
+### Sending form data
 
 
 
+- The web uses a client/server architecture; clients sends requests to servers using HTTP protocol & servers answers using the same protocol
+
+__Client side__
+
+- The form element defines how the data will be sent. All of its attributes are designed to let you configure the request to be sent when a user hits a submit button. 
+
+- The two most important attributes are action and method.
+
+- The action attribute defines where the data gets sent. Its value must be a valid relative or absolute URL. If this attribute isn't provided, the data will be sent to the URL of the page containing the form 
+
+- The method attribute defines how data is sent. The HTTP protocol provides several ways to perform a request; HTML form data can be transmitted via a number of different methods, the most common being the GET method and the POST method
+
+
+- The GET method is the method used by the browser to ask the server to send back a given resource.
+
+
+- The POST method is a method the browser uses to talk to the server when asking for a response that takes into account the data provided in the body of the HTTP request.
+
+- HTTP requests are never displayed to the user without useing tools such as the Firefox Network Monitor or the Chrome Developer tools.
+
+
+__Server side__
+
+- Whichever HTTP method we choose, the server receives a string that will be parsed in order to get the data as a list of key/value pairs. The way you access this list depends on the development platform.
+
+- Sending files with HTML forms is a special case. Files are binary data or considered as such whereas all other data is text data. Because HTTP is a text protocol, there are special requirements for handling binary data.
+
+- The encrypt attribute let us specify the value of the Content-Type HTTP header included in the request generated when the form is submitted. This header is very important because it tells the server what kind of data is being sent.
 
 
 
@@ -37,6 +56,26 @@
 
 
 
-[>> NEXT (class 14a reading)](https://wondwosentsige.github.io/code-201-reading-notes/class-14a)
 
 
+
+
+
+
+
+
+
+
+
+=====================================
+
+__Attributions for the following Reference materials and their authors__
+
+[MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)[EJS Partials- Hensle Joseph](https://medium.com/@henslejoseph/ejs-partials-f6f102cb7433)
+
+
+
+
+
+
+[>> NEXT (Read-14a)](https://wondwosentsige.github.io/code-301-reading-notes/class-14a)
