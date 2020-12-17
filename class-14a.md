@@ -2,7 +2,7 @@
 
 ## Read 14a
 
-### Databse normailization
+### Database normailization
 
 - __Database normalization is a process used to organize a database into tables and columns.__
 
