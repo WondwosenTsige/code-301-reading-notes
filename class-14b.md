@@ -4,6 +4,7 @@
 
 ### Project Ideas and APIs
 
+I am thinking about an app that will help to get a list of open jobs by qualification, job title, experience with in a given range and/or specific location.
 
 
 
@@ -43,12 +44,8 @@
 
 
 
-=====================================
-
-__Attributions for the following Reference materials and their authors__
 
 
-[MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
 
 
 
